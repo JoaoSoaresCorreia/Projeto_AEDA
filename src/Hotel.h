@@ -26,8 +26,8 @@ public:
 	void set_quarto_base_price(float price){this->quarto_base_price = price; return;}
 	void set_sala_base_price(float price){this->sala_base_price = price; return;}
 	float get_quarto_base_price(){return this->quarto_base_price;}
-	void const set_quarto_frente_tax(float tax){this->quarto_frente_tax = tax; return;}
-	void const set_quarto_tras_tax(float tax){this->quarto_tras_tax = tax; return;}
+	void set_quarto_frente_tax(float tax){this->quarto_frente_tax = tax; return;}
+	void set_quarto_tras_tax(float tax){this->quarto_tras_tax = tax; return;}
 	void update_quartos_tax();
 	//void update_quarto_base();
 	float get_quarto_tax(string location);
